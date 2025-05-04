@@ -3,13 +3,13 @@ import React from 'react';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Bulb, Rocket, Image, Rss, FileText, Wallet, Users, Megaphone, Handshake, Briefcase, ArrowRight } from "lucide-react";
+import { Lightbulb, Rocket, ImageIcon, Rss, FileText, Wallet, Users, Megaphone, Handshake, Briefcase, ArrowRight } from "lucide-react";
 import { Link } from 'react-router-dom';
 
 const phases = [
-  { id: 'idea', name: 'Idea Building', icon: Bulb, description: 'Validate and refine your business concept' },
+  { id: 'idea', name: 'Idea Building', icon: Lightbulb, description: 'Validate and refine your business concept' },
   { id: 'mvp', name: 'MVP Development', icon: Rocket, description: 'Build a minimum viable product' },
-  { id: 'branding', name: 'Branding', icon: Image, description: 'Create your visual identity and messaging' },
+  { id: 'branding', name: 'Branding', icon: ImageIcon, description: 'Create your visual identity and messaging' },
   { id: 'channels', name: 'Channels', icon: Rss, description: 'Establish your distribution channels' },
   { id: 'traction', name: 'Traction', icon: Rocket, description: 'Gain initial users and prove product-market fit' },
   { id: 'legal', name: 'Legal', icon: FileText, description: 'Handle contracts and compliance' },

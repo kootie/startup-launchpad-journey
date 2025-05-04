@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Layout } from '@/components/layout/Layout';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -6,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { Bulb, Rocket, Image, Rss, FileText, Wallet, Users, Megaphone, Handshake, Briefcase, Download, Book, Video } from 'lucide-react';
+import { Lightbulb, Rocket, ImageIcon, Rss, FileText, Wallet, Users, Megaphone, Handshake, Briefcase, Download, Book, Video } from 'lucide-react';
 
 const resourcesData = [
   {
@@ -15,7 +14,7 @@ const resourcesData = [
     description: 'A structured template to help you outline your business model and value proposition.',
     type: 'template',
     phase: 'idea',
-    icon: Bulb,
+    icon: Lightbulb,
     popular: true
   },
   {
@@ -24,7 +23,7 @@ const resourcesData = [
     description: 'Step-by-step instructions for conducting effective market research.',
     type: 'guide',
     phase: 'idea',
-    icon: Bulb
+    icon: Lightbulb
   },
   {
     id: 3,
@@ -49,7 +48,7 @@ const resourcesData = [
     description: 'Create a comprehensive brand guide for your startup.',
     type: 'template',
     phase: 'branding',
-    icon: Image
+    icon: ImageIcon
   },
   {
     id: 6,

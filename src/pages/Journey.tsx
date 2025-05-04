@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 import { Layout } from '@/components/layout/Layout';
 import { JourneyTracker } from '@/components/journey/JourneyTracker';
 import { PhaseCard } from '@/components/journey/PhaseCard';
-import { Bulb, Rocket, Image, Rss, FileText, Wallet, Users, Megaphone, Handshake, Briefcase } from "lucide-react";
+import { Lightbulb, Rocket, ImageIcon, Rss, FileText, Wallet, Users, Megaphone, Handshake, Briefcase } from "lucide-react";
 
 const phases = [
   {
     id: 'idea',
     title: 'Idea Building',
     description: 'Validate your business concept and refine your value proposition',
-    icon: Bulb,
+    icon: Lightbulb,
     status: 'active' as const,
     progress: 30
   },
@@ -26,7 +26,7 @@ const phases = [
     id: 'branding',
     title: 'Branding & Identity',
     description: 'Design your logo and establish your brand guidelines',
-    icon: Image,
+    icon: ImageIcon,
     status: 'locked' as const,
     progress: 0
   },

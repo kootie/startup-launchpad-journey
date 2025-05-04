@@ -1,13 +1,13 @@
 
 import React from 'react';
 import { Separator } from "@/components/ui/separator";
-import { Bulb, Rocket, Image, Rss, FileText, Wallet, Users, Megaphone, Handshake, Briefcase } from "lucide-react";
+import { Lightbulb, Rocket, ImageIcon, Rss, FileText, Wallet, Users, Megaphone, Handshake, Briefcase } from "lucide-react";
 import { useNavigate } from 'react-router-dom';
 
 const phases = [
-  { id: 'idea', name: 'Idea Building', icon: Bulb },
+  { id: 'idea', name: 'Idea Building', icon: Lightbulb },
   { id: 'mvp', name: 'MVP', icon: Rocket },
-  { id: 'branding', name: 'Branding', icon: Image },
+  { id: 'branding', name: 'Branding', icon: ImageIcon },
   { id: 'channels', name: 'Channels', icon: Rss },
   { id: 'traction', name: 'Traction', icon: Rocket },
   { id: 'legal', name: 'Legal', icon: FileText },
